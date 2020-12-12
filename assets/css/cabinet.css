@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../img/bg.png);
+    background-size: 400px 400px;
+    /* background: #fff; */
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+}
+.bg_opacity {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200, 0.4);
+}
+.nav{
+    width: 100%;
+    height: 10vmin;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.user_icon{
+    display: flex;
+    align-items: center;
+    height: 10vmin;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.user_icon > img{
+    height: 80%;
+    margin-right: 10px;
+}
+.user_menu{
+    position: fixed;
+    left: -120%;
+}
+.user_menu
